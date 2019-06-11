@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     // We can see shuffled whole card deck in console.log()
     console.log(shufflecards);
-    $('#cardDeck').show();
+    $('.cardDeck').show();
     event.preventDefault();
   });
 });
